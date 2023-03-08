@@ -1,15 +1,17 @@
 {
-  "name": "awesome-react-components",
+  "name": "bang-button",
   "version": "0.1.0",
   "license": "MIT",
   "author": "Ashish-simpleCoder",
   "main": "dist/index.js",
-  "module": "dist/awesome-react-components.esm.js",
+  "module": "dist/bang-button.esm.js",
   "typings": "dist/index.d.ts",
+  "sideEffects": false,
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
+  "homepage": "",
+  "keywords": ["react","typescript","utility components","helper components"],
   "scripts": {
     "analyze": "size-limit --why",
     "build": "dts build",
@@ -17,7 +19,8 @@
     "prepare": "dts build",
     "size": "size-limit",
     "start": "dts watch",
-    "test": "dts test --passWithNoTests"
+    "test": "vitest --coverage",
+    "coverage": "vitest run --coverage"
   },
   "husky": {
     "hooks": {
@@ -25,10 +28,14 @@
     }
   },
   "prettier": {
-    "printWidth": 80,
+    "printWidth": 120,
     "semi": true,
     "singleQuote": true,
-    "trailingComma": "es5"
+    "trailingComma": "es5",
+    "tabWidth": 3,
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "endOfLine": "lf"
   },
   "jest": {
     "testEnvironment": "jsdom"
@@ -41,12 +48,31 @@
   },
   "size-limit": [
     {
-      "path": "dist/awesome-react-components.cjs.production.min.js",
+      "path": "dist/bang-button.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/awesome-react-components.esm.js",
+      "path": "dist/bang-button.esm.js",
       "limit": "10 KB"
     }
-  ]
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^8.2.4",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@tsconfig/create-react-app": "^1.0.3",
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "@vitest/coverage-c8": "^0.29.2",
+    "dts-cli": "^1.6.3",
+    "husky": "^8.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "size-limit": "^8.2.4",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5",
+    "vitest": "^0.29.2"
+  }
 }

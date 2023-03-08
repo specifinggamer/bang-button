@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1678284404992" clover="3.2.0">
+  <project timestamp="1678284404992" name="All files">
+    <metrics statements="26" coveredstatements="26" conditionals="15" coveredconditionals="15" methods="1" coveredmethods="1" elements="42" coveredelements="42" complexity="0" loc="26" ncloc="26" packages="1" files="1" classes="1"/>
+    <file name="If.tsx" path="D:\React_Library\1_awesome-react-components\awesome-react-components\src\components\If.tsx">
+      <metrics statements="26" coveredstatements="26" conditionals="15" coveredconditionals="15" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="16" type="cond" truecount="1" falsecount="0"/>
+      <line num="4" count="16" type="stmt"/>
+      <line num="5" count="16" type="stmt"/>
+      <line num="6" count="16" type="stmt"/>
+      <line num="7" count="16" type="stmt"/>
+      <line num="8" count="16" type="stmt"/>
+      <line num="9" count="16" type="stmt"/>
+      <line num="10" count="16" type="stmt"/>
+      <line num="11" count="16" type="stmt"/>
+      <line num="12" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="11" type="stmt"/>
+      <line num="14" count="11" type="stmt"/>
+      <line num="15" count="11" type="stmt"/>
+      <line num="16" count="16" type="cond" truecount="1" falsecount="0"/>
+      <line num="17" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="7" type="cond" truecount="1" falsecount="0"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="7" type="cond" truecount="1" falsecount="0"/>
+      <line num="22" count="16" type="cond" truecount="3" falsecount="0"/>
+      <line num="23" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
