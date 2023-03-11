@@ -26,4 +26,4 @@ jobs:
               GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
               NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
            with:
-              publish: yarn changeset publish
+              publish: yarn changeset publish && yarn publish --access public
