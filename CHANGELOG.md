@@ -1,5 +1,11 @@
 # bang-button
 
+## 0.7.0
+
+### Minor Changes
+
+-  3be6a56: doc: Added icons
+
 ## 0.6.0
 
 ### Minor Changes
