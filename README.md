@@ -6,10 +6,24 @@ It has many useful utility-type React based Components and Hooks, that makes you
 
 ## Installation
 
+---
+
+For npm users
+
 ```bash
 $ npm install awesome-react-components   # for npm users
-$ yarn add awesome-react-components      # for yarn users
+```
+
+For pnpm users
+
+```bash
 $ pnpm install awesome-react-components  # for pnpm users
+```
+
+For yarn users
+
+```bash
+$ yarn add awesome-react-components      # for yarn users
 ```
 
 <br />
