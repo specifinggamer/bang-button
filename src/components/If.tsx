@@ -1,25 +1,27 @@
 import * as React from 'react';
 
 export default function If({
-   condition,
-   children,
+   condition = false,
+   children = null,
    suspense,
+   fallback = <></>,
 }: {
-   condition: boolean;
-   children: React.ReactNode;
+   condition?: any;
+   children?: React.ReactNode;
    suspense?: boolean;
+   fallback?: React.ReactNode;
 }): JSX.Element | null {
-   if (!children) throw Error('Please provide children');
    const conditionNegation = !!condition;
    const isArray = Array.isArray(children);
 
    if (isArray) {
-      if (children.length > 2) throw Error('component takes max two childrens');
-      if (!conditionNegation) return <>{children[1]}</>;
-      if (conditionNegation && suspense) return <React.Suspense fallback={<></>}>{children[0]}</React.Suspense>;
+      // if false then return children present after the array[0] index
+      if (!conditionNegation) return <>{children.slice(1)}</>;
+
+      if (conditionNegation && suspense) return <React.Suspense fallback={fallback}>{children[0]}</React.Suspense>;
       if (conditionNegation) return <>{children[0]}</>;
    }
-   if (conditionNegation && suspense) return <React.Suspense fallback={<></>}>{children}</React.Suspense>;
+   if (conditionNegation && suspense) return <React.Suspense fallback={fallback}>{children}</React.Suspense>;
    if (conditionNegation) return <>{children}</>;
 
    return null;

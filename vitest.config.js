@@ -7,5 +7,9 @@ export default defineConfig({
       globals: true,
       environment: 'jsdom',
       setupFiles: './test/setupTests.js',
+      coverage: {
+         provider: 'istanbul', // or 'c8'
+      },
    },
+   clearScreen: true,
 });
