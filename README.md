@@ -11,19 +11,19 @@ It has many useful utility-type React based Components and Hooks, that makes you
 For npm users
 
 ```bash
-$ npm install awesome-react-components   # for npm users
+$ npm install awesome-react-components
 ```
 
 For pnpm users
 
 ```bash
-$ pnpm install awesome-react-components  # for pnpm users
+$ pnpm install awesome-react-components
 ```
 
 For yarn users
 
 ```bash
-$ yarn add awesome-react-components      # for yarn users
+$ yarn add awesome-react-components
 ```
 
 <br />
