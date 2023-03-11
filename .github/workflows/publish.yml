@@ -18,10 +18,11 @@ jobs:
 
          - name: Install deps (with cache)
            uses: bahmutov/npm-install@v1
+
+         - name: Create Release Pull Request or Publish
            id: changesets
            uses: changesets/action@v1
-           with:
-               yarn changeset publish
+           with: yarn changeset publish
            env:
-               GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-               NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+              GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+              NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
