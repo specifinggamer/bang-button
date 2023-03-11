@@ -1,5 +1,11 @@
 # bang-button
 
+## 0.4.0
+
+### Minor Changes
+
+-  f9cfdf0: This adding nothing for anything
+
 ## 0.3.0
 
 ### Minor Changes
