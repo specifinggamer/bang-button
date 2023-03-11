@@ -37,7 +37,7 @@ $ yarn add awesome-react-components
 | condition |    any    |       ❌ |    false | Based on evaluation of the condition flag the component will return null or children  |
 | children  | ReactNode |       ❌ |     null | To render the children                                                                |
 | suspense  |  boolean  |       ❌ |    false | To lazy load the component or not                                                     |
-| fallback  | ReactNoe  |       ❌ | Fragment | Fallback needed to show unless the component is loaded fully for suspensed components |
+| fallback  | ReactNode |       ❌ | Fragment | Fallback needed to show unless the component is loaded fully for suspensed components |
 
 > **Note**
 >
