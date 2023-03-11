@@ -1,5 +1,11 @@
 # bang-button
 
+## 0.6.0
+
+### Minor Changes
+
+-  e1c7791: doc: centering text of table in readme
+
 ## 0.5.0
 
 ### Minor Changes
