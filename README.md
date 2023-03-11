@@ -4,8 +4,6 @@ An Awesome React Library for **Utility** **Components** and **Hooks**.
 
 That makes your code more like Component-JSX syntax, more readable and more optimized.
 
-<br />
-
 ## Installation
 
 For npm users
@@ -26,13 +24,9 @@ For yarn users
 $ yarn add awesome-react-components
 ```
 
-<br />
-
 ## Components
 
 -  [If](#if)
-
-<br />
 
 ## Details
 
