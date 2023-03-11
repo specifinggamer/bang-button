@@ -1,5 +1,11 @@
 # bang-button
 
+## 0.5.0
+
+### Minor Changes
+
+-  7bfcc28: Adding code `tsx <div>awesome</div>`
+
 ## 0.4.0
 
 ### Minor Changes
