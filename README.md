@@ -1,3 +1,13 @@
+<p align="left">
+  <a href="https://badge.fury.io/js/bang-button">
+    <img src="https://badge.fury.io/js/bang-button.svg" alt="npm version">
+  </a>
+    <img src="https://img.shields.io/badge/Licence-MIT-success" alt="Jest is released under the MIT license." />
+  <a href="https://github.com/Ashish-simplecoder/bang-button/actions/workflows/main.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/Ashish-simpleCoder/bang-button/main.yml?label=CI&logo=GitHub" alt="Jest is released under the MIT license." />
+  </a>
+</p>
+
 # awesome-react-components
 
 An Awesome React Library for **Utility** **Components** and **Hooks**.
