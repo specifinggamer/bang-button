@@ -25,7 +25,8 @@
     "size": "size-limit",
     "start": "dts watch",
     "test": "vitest --coverage",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "release":"changeset publish"
   },
   "husky": {
     "hooks": {
