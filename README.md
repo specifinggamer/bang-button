@@ -6,8 +6,6 @@ It has many useful utility-type React based Components and Hooks, that makes you
 
 ## Installation
 
----
-
 For npm users
 
 ```bash
@@ -30,15 +28,11 @@ $ yarn add awesome-react-components
 
 ## Components
 
----
-
 -  [If](#if)
 
 <br />
 
 ## Details
-
----
 
 ### If
 
