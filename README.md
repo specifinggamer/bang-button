@@ -1,6 +1,8 @@
-# A Library Of React Utility Components and Hooks (awesome-react-components)
+# awesome-react-components
 
-It has many useful utility-type React based Components and Hooks, that makes your code more like Component-JSX syntax, more readable and more optimized.
+An Awesome React Library for **Utility** **Components** and **Hooks**.
+
+That makes your code more like Component-JSX syntax, more readable and more optimized.
 
 <br />
 
@@ -36,11 +38,12 @@ $ yarn add awesome-react-components
 
 ### If
 
-| Prop      |   Type    | Required | Default | Description                                                                          |
-| --------- | :-------: | -------: | ------: | ------------------------------------------------------------------------------------ |
-| condition |    any    |       ❌ |   false | Based on evaluation of the condition flag the component will return null or children |
-| children  | ReactNode |       ❌ |    null | To render the children                                                               |
-| suspense  |  boolean  |       ❌ |   false | To lazy load the component or not                                                    |
+| Prop      |   Type    | Required |  Default | Description                                                                           |
+| --------- | :-------: | -------: | -------: | ------------------------------------------------------------------------------------- |
+| condition |    any    |       ❌ |    false | Based on evaluation of the condition flag the component will return null or children  |
+| children  | ReactNode |       ❌ |     null | To render the children                                                                |
+| suspense  |  boolean  |       ❌ |    false | To lazy load the component or not                                                     |
+| fallback  | ReactNoe  |       ❌ | Fragment | Fallback needed to show unless the component is loaded fully for suspensed components |
 
 > **Note**
 >
