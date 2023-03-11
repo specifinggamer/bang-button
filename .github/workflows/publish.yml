@@ -8,6 +8,7 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
    publish:
+      permissions: read-all|write-all
       runs-on: 'ubuntu-latest'
       steps:
          - uses: actions/checkout@v3
