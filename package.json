@@ -3,6 +3,7 @@
   "version": "0.6.0",
   "license": "MIT",
   "author": "Ashish-simpleCoder",
+  "contributors": ["ashish-simplecoder"],
   "main": "dist/index.js",
   "module": "dist/bang-button.esm.js",
   "typings": "dist/index.d.ts",
@@ -10,7 +11,13 @@
   "files": [
     "dist"
   ],
-  "homepage": "",
+  "homepage": "https://github.com/Ashish-simpleCoder/bang-button",
+  "bugs": {
+
+  },
+  "markdown": "github",
+  "private":false,
+  "description": "simple react components",
   "keywords": [
     "react",
     "typescript",
