@@ -1,5 +1,11 @@
 # bang-button
 
+## 0.8.0
+
+### Minor Changes
+
+-  4096760: This is adding homepage"
+
 ## 0.7.0
 
 ### Minor Changes
