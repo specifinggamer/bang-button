@@ -1,9 +1,11 @@
 {
   "name": "bang-button",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "license": "MIT",
   "author": "Ashish-simpleCoder",
-  "contributors": ["ashish-simplecoder"],
+  "contributors": [
+    "ashish-simplecoder"
+  ],
   "main": "dist/index.js",
   "module": "dist/bang-button.esm.js",
   "typings": "dist/index.d.ts",
@@ -12,11 +14,9 @@
     "dist"
   ],
   "homepage": "https://github.com/Ashish-simpleCoder/bang-button",
-  "bugs": {
-
-  },
+  "bugs": {},
   "markdown": "github",
-  "private":false,
+  "private": false,
   "description": "simple react components",
   "keywords": [
     "react",
