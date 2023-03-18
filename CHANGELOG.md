@@ -1,5 +1,11 @@
 # bang-button
 
+## 0.9.0
+
+### Minor Changes
+
+-  007527e: Remove markdown tag line
+
 ## 0.8.0
 
 ### Minor Changes
